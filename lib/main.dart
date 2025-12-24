@@ -12,7 +12,7 @@ void main() {
       getPages: AppPages.routes,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.system,
     ),
   );
 }
